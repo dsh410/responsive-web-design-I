@@ -280,6 +280,7 @@ header .iov {
 	margin-right: 0;
 }
 
+
 .middle-section img {
 	width: 100%;
 }
@@ -326,13 +327,13 @@ footer h6 {
 }
 @media(max-width:800px){
 	.wrapper{
-		width:800px;
+		width:700px;
         margin: 0 auto;;
 	}
 
 	  header nav { 
 		display: flex;
-		flex-flow: row-reverse nowrap;
+		flex-flow: row nowrap;
 		   background:white;
 		   border-bottom: none;
 		   position: absolute;
@@ -353,17 +354,15 @@ footer h6 {
 	   
 		}
 
-		header nav .logo{
-			display: flex;
-			flex-flow: row wrap;
-			justify-content: center;
-		}
+		
 
 		.top-section div{
 		
 			width: 45%;
 			margin-left: 1.9%;
 		}
+
+		
 
 		.bottom-section div{
 			width: 29%;
@@ -372,10 +371,12 @@ footer h6 {
 			margin: 0%;
 			margin-left: 2%;
 		}
+
+
 		.contact{
 			margin-left: 3%;
 		}
-	
+		
 
 }	
 
@@ -428,6 +429,7 @@ footer h6 {
 		
 		margin-left: 3%;
 	}
+	
 	
 	.bottom-section div{
 		display: flex;
